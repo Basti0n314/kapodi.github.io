@@ -1,0 +1,489 @@
+@font-face {
+    font-family: WCManoNegraBta;
+    src: url(/fonts/WCManoNegraBta.otf);
+}
+
+@font-face {
+	font-family: WCManoNegraBoldBta;
+	src: url(/fonts/WCManoNegraBoldBta);
+}
+
+@font-face {
+	font-family: Aleo-Regular;
+	src: url(/fonts/Aleo-Regular.otf);
+}
+
+@font-face {
+	font-family: Aleo-Bold;
+	src: url(/fonts/Aleo-Bold.otf);
+}
+
+@font-face {
+	font-family: Aleo-Light;
+	src: url(/fonts/Aleo-Light.otf);
+}
+
+html, body, ul {
+	padding: 0;
+	margin: 0;
+}
+
+a {
+	text-decoration: none;
+}
+
+.heads {
+	position: relative;
+	width: 100%;
+	height: 80px;
+	background: white;
+}
+
+.head1 {
+	position: relative;
+	width: 50%;
+	height: 100%;
+	float: left;
+}
+
+.header_logo {
+	position: relative;
+	top: 20px;
+	display: block;
+	width: 70px;
+    font-family: 'WCManoNegraBta';
+    color: #444444;
+	font-size: 28px;
+	margin-left: 150px;
+	text-align: center;
+}
+
+.header_logo::after {
+	content: "..";
+    position: absolute;
+    top: 0px;
+    right: -5px;
+    font-family: 'WCManoNegraBta';
+    color: #f34949;
+    font-size: 32px;
+    text-align: center;
+}
+
+.head2 {
+	position: relative;
+	width: 50%;
+	height: 100%;
+	float: right;
+}
+
+.spisok {
+	margin-top: 30px;
+	top: 50%;
+	text-align: center;
+}
+
+li {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+
+.perexod {
+	display: inline;
+	margin-right: 10px;
+	font-size: 14px;
+	font-family: 'Aleo-Regular';
+}
+
+.perexod a {
+	padding: 25px;
+	color: #444444;
+}
+
+.perexod a:hover {
+	color: #f34949;
+}
+
+.image {
+	position	: relative;
+	height: 100%;
+	background-color: #333;
+}
+
+.image img{
+	width: 100%;
+}
+
+.TTIA {
+	position: absolute;
+	top: 15%;
+	width: 100%;
+    font-family: 'WCManoNegraBta', 'WCManoNegraBoldBta';
+	font-size: 70px;
+	text-align: center;
+	color: white;
+}
+
+.rrhpwt {
+	position: absolute;
+	top: 55%;
+	width: 100%;
+	text-align: center;
+	font-size: 14px;
+	color: white;
+    font-family: 'Aleo-Regular', 'Aleo-Light';
+}
+
+.rrhpwt::before {
+	content: "";
+	width: 3%;
+	height: 1.2px;
+	background: #fff;
+	top: 50%;
+	position: absolute;
+	right: 64%;
+    color: white;
+    font-size: 14px;
+    text-align: center;
+}
+
+.rrhpwt::after {
+	content: "";
+	width: 3%;
+	height: 1.2px;
+	background: white;
+	top: 50%;
+	position: absolute;
+	right: 33%;
+    color: white;
+    font-size: 14px;
+    text-align: center;
+}
+
+.smallfix {
+	width: 100%;
+	height: 3px;
+	background-color: #f34949;
+}
+
+.themenu {
+	position: relative;
+	width: 155px;
+	height: 75px;
+	background-image: url(/img/menu.png);
+	margin: auto;
+}
+
+.textmenu {
+	position: absolute;
+	color: white;
+	font-family: 'Aleo-Bold';
+	margin-left: 40px;
+	margin-top: 20px;
+}
+
+.mainmenu {
+	position: relative;
+	width: 100%;
+	height: 500px;
+}
+
+.firstcolumn {
+	position: absolute;
+	width: 35%;
+	height: 80%;
+	margin-top: 3%;
+	margin-left: 10%;
+}
+
+.firstcolumn li {
+	font-family: 'Aleo-Regular';
+	margin-left: 20%;
+	margin-top: 13%;
+	position: relative;
+	font-size: 16px;
+	color: #555555;
+}
+
+.firstcolumn li::before {
+	position: absolute;
+	content: "";
+	width: 90%;
+	height: 1px;
+	background-color: #dddddd;
+	z-index: -1;
+	top: 10px;
+}
+
+.detail {
+	font-size: 12px;
+	color: #bbbbbb;
+}
+
+.secondcolumn {
+	position: absolute;
+	width: 35%;
+	height: 80%;
+	margin-left: 50%;
+	margin-top: 3%;
+}
+
+.secondcolumn li {
+	font-family: 'Aleo-Regular';
+	margin-left: 20%;
+	margin-top: 13%;
+	position: relative;
+	font-size: 16px;
+	color: #555555;
+}
+
+.secondcolumn li:before {
+	position: absolute;
+	content: "";
+	width: 90%;
+	height: 1px;
+	background-color: #dddddd;
+	top: 10px;
+	z-index: -2;
+}
+
+.price {
+	background-color: white;
+	float: right;
+}
+
+.withleft {
+	background-color: white;
+	z-index: 15;
+}
+
+.whitefon {
+	width: 100%;
+	height: 200px;
+	background-color: white;
+}
+
+.loadmore {
+	font-family: 'Aleo-Regular';
+	font-size: 14px;
+	color: #aaaaaa;
+	margin-left: 47%;
+	padding: 10px;
+	outline: 1px solid #aaaaaa;
+}
+
+.loadmore:hover {
+	color: red;
+}
+
+.dishes {
+	position: relative;
+	margin-left: 17%;
+	margin-bottom: 150px;
+	font-family: 'Aleo-Bold';
+	font-size: 20px;
+	color: #333333;
+	background-color: white;
+}
+
+.dishes::before {
+	position: absolute;
+	content: "";
+	left: 23%;
+	width: 20%;
+	height: 1px;
+	background-color: #dddddd;
+	top: 12px;
+}
+
+.dishespictures {
+	position: relative;
+	margin-top: 5%;
+	margin-right: 20%;
+	height: 165px;
+	width: 80%;
+	font-size: 13px;
+	font-family: 'Aleo-Light';
+	color: #555555;
+}
+
+.dishe1 {
+	position: absolute;
+	width: 20%;
+	height: 80%;
+}
+
+.dishe2 {
+	left: 27%;
+	position: absolute;
+	width: 20%;
+	height: 80%;
+}
+
+.dishe3 {
+	left: 54%;
+	position: absolute;
+	width: 20%;
+	height: 80%;
+}
+
+.dishe4 {
+	left: 81%;
+	position: absolute;
+	width: 20%;
+	height: 80%;
+}
+
+.pictdish {
+	width: 100%;
+	height: 100%;
+}
+
+.dishedetail {
+	margin-top: 10px;
+	position: absolute;
+}
+
+.pricedishe {
+	margin-top: 10px;
+	float: right;
+}
+
+.stars {
+	margin-top: 33px;
+	position: absolute;
+	height: 7%;
+}
+
+.allgal {
+	position: relative;
+	height: 100%;
+	width: 100%;
+	background-color: white;
+}
+
+.gallery {
+	position: relative;
+	margin-left: 17%;
+	margin-bottom: 150px;
+	font-family: 'Aleo-Bold';
+	font-size: 20px;
+	color: #333333;
+	background-color: white;
+	z-index: 0;
+}
+
+.gallery::before {
+	position: absolute;
+	content: "";
+	left: 17%;
+	width: 20%;
+	height: 1px;
+	background-color: #dddddd;
+	top: 12px;
+}
+
+.pictures {
+	position: relative;
+	margin-top: 5%;
+	margin-right: 20%;
+	height: 365px;
+}
+
+.firstpict {
+	position: absolute;
+	left: -10%;
+	width: 545px;
+	z-index: 0;
+}
+
+.topone {
+	position: absolute;
+	left: 34%;
+	width: 33%;
+	height: 50%;
+}
+
+.toptwo {
+	position: absolute;
+	left: 67%;
+	width: 33%;
+	height: 50%;
+}
+
+.bottomone {
+	position: absolute;
+	left: 34%;
+	width: 33%;
+	height: 50%;
+	top: 50%;
+}
+
+.bottomtwo {
+	position: absolute;
+	left: 67%;
+	width: 33%;
+	height: 50%;
+	top: 50%;
+}
+
+.whiteline {
+	position: absolute;
+	background-color: white;
+	width: 17%;
+	height: 100%;
+	z-index: 1;
+}
+
+footer {
+	height: 260px;
+	background-color: #3b3b3b;
+}
+
+.info {
+	margin-left: 2%;
+	margin-right: 10%;
+}
+
+.info ul{
+	margin-top: 6%;
+	margin-left: 11.6%; 
+	display: inline-block;
+	color: white;
+	font-family: 'Aleo-Light';
+	font-size: 13px;
+}
+
+.info ul li{
+	margin-top: 11px;
+}
+
+.info ul li a{
+	color: white;
+}
+
+.info ul li a:hover{
+	color: #f34949;
+}
+
+.footer_logo {
+	position: relative;
+	top: 0px;
+	display: block;
+	width: 70px;
+    font-family: 'WCManoNegraBta';
+    color: #dddddd;
+	font-size: 28px;
+	margin-left: 0px;
+}
+
+.footer_logo::after {
+	content: "..";
+    position: absolute;
+    top: 0px;
+    right: -1px;
+    font-family: 'WCManoNegraBta';
+    color: #f34949;
+    font-size: 32px;
+    text-align: center;
+}
